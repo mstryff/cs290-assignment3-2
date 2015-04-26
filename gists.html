@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Stryffem Assignment 3-2</title>
+        <script src="ajax.js"></script>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+    </head>
+    
+    <body>
+        <br>
+        <form>
+            <input type="button" onclick="searchGists()" value="Search Gists" id="searchButton">
+        </form>
+        
+        <br><br>
+        
+        <table>
+            <tr>
+                <th>Favorites</th>
+                <th>Search Results</th>
+            </tr>
+            <tr>
+                <div><td><ul id = 'faves'></ul></th></div>
+                <div><td><ul id = 'results'></ul></th></div>
+            </tr>
+        </table>
+    </body>
+</html>
