@@ -1,0 +1,33 @@
+table
+{
+    border: 1px solid black;
+    width: 100%;
+}
+
+th, td
+{
+    border: 1px solid black;
+    width: 50%;
+}
+
+li
+{
+    height: 30px;
+    width: 95%;
+}
+
+button
+{
+    height: 25px;
+    float: right;
+}
+
+body
+{
+    text-align: center;
+}
+
+body > table
+{
+    text-align: left;
+}
